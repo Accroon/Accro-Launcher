@@ -8,7 +8,7 @@ Current date : 20 june 2026
 
 Version : 1.4.5.20
 
-Total Games : 114 + 21 Nintedo
+Total Games : 115 + 21 Nintendo
 
 Total Games Size : 6.12 TB
 
