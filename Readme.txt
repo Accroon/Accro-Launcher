@@ -1,4 +1,4 @@
-A Steam Like Game downloader and Launcher. Simply Download and run the exe to see avilable games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
+A Steam Like Game downloader and Launcher. Simply Download and run the exe to see play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
 Details About This Project:
 
