@@ -1,0 +1,11 @@
+v1.4.7.811 Notes:
+
+1. Fixed the slow verification issue and made it 100x faster than before.
+2. Added Custom UI to see what files missing in from what chunk and then restore them.
+3. Fixed the issue where the app could not show disk speed live.
+4. Fixed the issue where the app did massive data read for files that was splited into multiple small chunks.
+5. Fixed the issue where the app could not download the cover for offline mode if user lost their connection instantly after downloading/verifying their game.
+6. Added Custom update UI if new update is available that also shows the release notes.
+
+
+This is an auto-update.
