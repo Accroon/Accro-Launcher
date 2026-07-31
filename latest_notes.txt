@@ -3,7 +3,8 @@
 1. FIxed the "Failed to add to tray" error when system had a crash.
 2. Added Custom Accro Modification notes into the game folder.
 3. Upgraded "Unlink" Button to Unlink the game completely from Accro.
-4. Few other custom modificaitons were made.
+4. The Update UI is now scrollable with the entire version logs.
+5. Few other custom modificaitons were made.
 
 
 ### Version 1.4.7.811
