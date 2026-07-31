@@ -10,7 +10,7 @@ Current date : 28 july 2026
 
 Version : 1.4.7.811
 
-Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 122 Items
+Total Games : 119 + 2 App + 21 Nintendo(+1 Mega Project) + 1 PS4 = 123 Items
 
 Total Games Size : 6.71 TB
 
