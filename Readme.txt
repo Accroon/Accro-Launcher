@@ -10,7 +10,7 @@ Current date : 28 july 2026
 
 Version : 1.4.7.811
 
-Total Games : 119 + 2 App + 21 Nintendo(+1 Mega Project) + 1 PS4 = 123 Items
+Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 123 Items
 
 Total Games Size : 6.71 TB
 
@@ -26,7 +26,7 @@ Compiled With : MSVS
 
 Build : Release x64
 
-Total Html Code lines: (100 x 1000+/-) + ((14+21)x (700-600+/-))
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+1)x (700-600+/-)) = 116,900+/-
 
 Server Side Code lines : 5543
 
@@ -70,7 +70,7 @@ Compiled With : MSVS
 
 Build : Release x64
 
-Total Html Code lines: (100 x 1000+/-) + ((14+21)x (700-600+/-))
+Total Html Code lines: (100 x 1000+/-) + ((18+2+1+1)x (700-600+/-)) = 115,400+/-
 
 Server Side Code lines : 5543
 
@@ -98,7 +98,7 @@ Current date : 18 july 2026
 
 Version : 1.4.6.08
 
-Total Games : 117 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 121 Items
+Total Games : 117 + 2 Apps + 21 Nintendo(1 Mega Project) + 1 PS4 = 121 Items
 
 Total Games Size : 6.77 TB
 
@@ -114,7 +114,7 @@ Compiled With : MSVS
 
 Build : Release x64
 
-Total Html Code lines: (100 x 1000+/-) + ((14+21)x (700-600+/-))
+Total Html Code lines: (100 x 1000+/-) + ((17+2+1+1)x (700-600+/-)) = 114,700+/-
 
 Server Side Code lines : 2100+/-
 
@@ -141,7 +141,7 @@ Current date : 20 june 2026
 
 Version : 1.4.5.20
 
-Total Games : 115 + 21 Nintendo
+Total Games : 115 + 21 Nintendo(1 Mega Project) = 116 Items
 
 Total Games Size : 6.12 TB
 
@@ -157,7 +157,7 @@ Compiled With : MSVS
 
 Build : Release x64
 
-Total Html Code lines: (100 x 1000+/-) + ((14+21)x (700-600+/-))
+Total Html Code lines: (100 x 1000+/-) + ((15+1)x (700-600+/-)) = 109,600+/-
 
 Server Side Code lines : 2100+/-
 
@@ -201,7 +201,7 @@ Compiled With : MSVS
 
 Build : Release x64
 
-Total Html Code lines: (70 x 1000+/-) + (8 x (700-600+/-))
+Total Html Code lines: (78 x 1000+/-) = 78000+/-
 
 Server Side Code lines : 1400+/-
 
