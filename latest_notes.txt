@@ -1,11 +1,93 @@
-v1.4.7.811 Notes:
+### Version 1.4.7.811
+
+*Note: This is an auto-update.*
 
 1. Fixed the slow verification issue and made it 100x faster than before.
-2. Added Custom UI to see what files missing in from what chunk and then restore them.
+2. Added Custom UI to see what files are missing from what chunk and then restore them.
 3. Fixed the issue where the app could not show disk speed live.
-4. Fixed the issue where the app did massive data read for files that was splited into multiple small chunks.
-5. Fixed the issue where the app could not download the cover for offline mode if user lost their connection instantly after downloading/verifying their game.
-6. Added Custom update UI if new update is available that also shows the release notes.
+4. Fixed the issue where the app did massive data reads for files that were split into multiple small chunks.
+5. Fixed the issue where the app could not download the cover for offline mode if the user lost their connection instantly after downloading/verifying their game.
+6. Added Custom update UI if a new update is available that also shows the release notes.
 
+### Version 1.4.7.351
 
-This is an auto-update.
+*Note: This is an auto-update. Users do not have to install it manually if they have version 1.4.4.160 or plus.*
+
+1. Added full PlayStation + Xbox Controller support.
+2. Added Fullscreen button to enable/disable Fullscreen mode.
+3. Added Music button to enable/disable background music.
+4. Added Custom Animation before showing the main window.
+5. Added another download route (BlackBlaze) to download game files from.
+6. Added Fav Section to show favorite games.
+7. Added Controller button to enable/disable controller navigation.
+8. Added Custom Tag to the favorite games to represent them.
+9. Added Custom notification when playtime gets auto-paused/resumed.
+10. Added the ability to add games to the Fav Section by right-clicking on the cover.
+11. Fixed the bug where the Playtime suddenly jumped to trillions due to a bad tracking system.
+12. Fixed the bug where when the main window was open, if a user tried opening the tray menu, it opened on top.
+
+### Version 1.4.6.62
+
+*Note: This is an auto-update. Users do not have to download it manually.*
+
+1. Advanced Playtime tracking system added.
+2. Players can now go AFK without adding an unplayed amount of time to the Playtime.
+3. If a player is idle, does not press a single key on their input devices, or does not move their mouse at all for more than 5 minutes, the Playtime tracking system pauses the Playtime.
+4. It continues tracking once the player is back and ready to continue playing.
+
+### Version 1.4.6.08
+
+*Note: This update will automatically be applied if the user approved and has version 1.4.4.160 or plus.*
+
+1. Fixed the issue where the app could not load the playtime and ratings json files right next to the exe if the registry values were deleted.
+2. Fixed the hang on moving games from one directory to another.
+3. Added Per Game Themed Moving UI for moving game files.
+4. Completely removed the extra WebView2Loader.dll needed to run the app on a new PC for the first time.
+
+### Version 1.4.5.20
+
+*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+
+1. Added the ability to launch 10 games simultaneously.
+2. Added the ability to launch games while downloading another game.
+3. Added live playtime on the game's cover for the running game.
+4. Added Unlink button to unlink the game from the launcher without deleting the game.
+5. Redesigned the "always on top" button to look better.
+6. Added the ability to track multiple games' playtime simultaneously.
+7. Added the ability to understand what game is running if the launcher is closed and reopened.
+8. Added Github button to open the repository to learn more about version info.
+
+### Version 1.4.4.810
+
+*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+
+1. Added 5-star rating system for games that are played over 30 minutes.
+2. Added Topmost button on the main grid.
+
+### Version 1.4.4.720
+
+*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+
+1. Added live downloading state on the game's cover while downloading a game.
+2. Fixed the "Failed to add to tray" issue that occurred sometimes.
+
+### Version 1.4.4.160
+
+*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+
+1. Added Cloudflare CDN, one more option to download through.
+2. Added a good-looking tray menu which enhances user experience to launch games and monitor total play time.
+3. Added Shortcut in the start menu for quick launching the app.
+4. Added Startup system to auto-launch the app on startup.
+5. No external WebView2Loader.dll needed anymore unlike previous versions.
+6. Added the ability to choose an already installed game directory to prevent full installation.
+7. Auto-update functionality added.
+8. Fixed some tiny bugs.
+
+### Version 1.4.3.810
+
+1. Added Play Time count for each game just like Steam.
+2. Fixed delayed painting issue on the Launch button when the games close from their native menu.
+3. Fixed the Universal Stop button state and aligned it to each game separately.
+4. Automatic Launcher.exe detection implemented.
+5. No nested game folders.
