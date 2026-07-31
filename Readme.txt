@@ -1,6 +1,53 @@
+// © 2026 Accro - Tools | All rights reserved || Last Update July 27 2026
+
+
 A Steam Like Game downloader and Launcher. Simply Download and run the exe to see play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
 Details About This Project:
+
+
+Current date : 28 july 2026
+
+Version : 1.4.7.811
+
+Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 122 Items
+
+Total Games Size : 6.71 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 18615
+
+Total Functions : 6754
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((14+21)x (700-600+/-))
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 127++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Current date : 26 july 2026
@@ -182,8 +229,13 @@ Chosen Games rules:
 3. Bigger Games
 4. Hard to Collect
 5. HV Games
+6. Online Games
 
 
 Icon Designed by : Accro
 Compressing Done by : Accro
 Project Done by : Accro
+
+
+
+// © 2026 Accro - Tools | All rights reserved || First Release Date May 07 2026
