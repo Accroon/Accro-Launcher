@@ -16,9 +16,9 @@ Total Games Size : 6.88 TB
 
 Development Phase : 4+ Months
 
-Total Code Lines : 19284
+Total Code Lines : 19314
 
-Total Functions : 6884
+Total Functions : 6889
 
 Made In : C++, JS, Html, Css
 
