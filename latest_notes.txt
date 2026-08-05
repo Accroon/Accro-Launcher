@@ -1,8 +1,9 @@
 ### v1.4.8.78 Notes:
 
 1. A Major bug where Playtime Suddenly would jump to trillions has finally been resolved.
-2. Few other bugs were fixed.
-3. Few unneeded functions were removed.
+2. Fixed the navigation issue on the speaker also added controller support for the volume slider.
+3. Few other bugs were fixed.
+4. Few unneeded functions were removed.
 
 ### v1.4.8.12 Notes:
 
