@@ -1,3 +1,9 @@
+### v1.4.8.78 Notes:
+
+1. A Major bug where Playtime Suddenly would jump to trillions has finally been resolved.
+2. Few other bugs were fixed.
+3. Few unneeded functions were removed.
+
 ### v1.4.8.12 Notes:
 
 1. FIxed the "Failed to add to tray" error when system had a crash.
@@ -5,7 +11,6 @@
 3. Upgraded "Unlink" Button to Unlink the game completely from Accro.
 4. The Update UI is now scrollable with the entire version logs.
 5. Few other custom modificaitons were made.
-
 
 ### Version 1.4.7.811
 
