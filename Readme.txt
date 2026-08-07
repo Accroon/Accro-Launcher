@@ -38,7 +38,7 @@ Compressor Total Code Lines : 4314+/-
 
 Remote Uploader Code Lines : 1670+/-
 
-Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+Total Internet Bandwidth Used to Finish the Entire Project : 55TB++
 
 Compression Done : 133++ Times
 
