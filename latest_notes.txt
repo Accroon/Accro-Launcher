@@ -1,9 +1,23 @@
+### v1.4.9.97 Notes:
+
+1. Fixed the Chunk based verification prompts that triggered every chunk.
+2. Added Multi Verification Mode.
+3. Fixed the delay on download button when clicked.
+4. Added progress bar while decompressing game chunks.
+5. Added progress bar while installing game files.
+6. Added progress bar while uninstalling the game.
+7. Added full controller support for navigating through most UIs.
+8. Added the ability to play custom music if a music file is placed into the /music folder right next to the exe.
+9. Fixed the bottleneck while installing games with many small tiny files.
+10. Added the ability to uninstall/unlink/open submenus while another game verifying/downloading.
+11. Changed the requirements for 'Multi Connection x8' Mode to trigger with just 1 hour max time or 15 seconds with less than 7 MBps internet speed.
+12. Few other bugs were fixed.
+
 ### v1.4.8.78 Notes:
 
 1. A Major bug where Playtime Suddenly would jump to trillions has finally been resolved.
-2. Fixed the navigation issue on the speaker also added controller support for the volume slider.
-3. Few other bugs were fixed.
-4. Few unneeded functions were removed.
+2. Few other bugs were fixed.
+3. Few unneeded functions were removed.
 
 ### v1.4.8.12 Notes:
 
