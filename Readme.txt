@@ -1,24 +1,23 @@
- © 2026 Accro - Tools | All rights reserved || Last Update August 05 2026
+ © 2026 Accro - Tools | All rights reserved || Last Update August 14 2026
 
 
 A Steam Like Game downloader and Launcher. Simply Download and run the exe to see play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
 Details About This Project:
 
+Current date : 14 August 2026
 
-Current date : 5 August 2026
+Version : 1.4.9.97
 
-Version : 1.4.8.78
-
-Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 123 Items
+Total Games : 119 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 124 Items
 
 Total Games Size : 6.88 TB
 
 Development Phase : 4+ Months
 
-Total Code Lines : 19314
+Total Code Lines : 20236
 
-Total Functions : 6889
+Total Functions : 6844
 
 Made In : C++, JS, Html, Css
 
@@ -38,7 +37,51 @@ Compressor Total Code Lines : 4314+/-
 
 Remote Uploader Code Lines : 1670+/-
 
-Total Internet Bandwidth Used to Finish the Entire Project : 55TB++
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 136++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 5 August 2026
+
+Version : 1.4.8.78
+
+Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 123 Items
+
+Total Games Size : 6.88 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 19284
+
+Total Functions : 6884
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+1)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
 
 Compression Done : 133++ Times
 
