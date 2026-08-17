@@ -1,3 +1,21 @@
+### v1.5.0.1 Notes:
+
+1. Fixed an issue where 'Multi Connection x8' Mode downloaded the full pre=downloaded chunk's offsets if user had a TCP connection issue.
+2. Fixed a bug where Custom GUI did not keep the main window open.
+3. Fixed the freeze when user minimized their window while doing a 'Smart Verify'.
+4. Added full replacement of the Windows Native Messageboxes to Custom Messageboxes.
+5. Added Complex 3 Type verification methods depending on how the game was compressed.
+6. Added support for per file restoring method if the game was compressed with just .bin extension.
+7. Added support for tiny Zstd compressed chunks downloading method.
+8. Added support for handling and installing tiny zstd compressed chunks.
+9. Added support for verification method for games with tiny zstd chunks.
+10.Added Full replacements of the Windows File-Picker and Folder-Picture to the Custom ones.
+11.Added Full controller support.
+12.Added Sound effects for button clicks, navigation using controller, opening sub-menu, Alert boxes.
+13.Added Audio Visualizer at the bottom of the main grid that opens while playing music.
+14.Compressorv8 was built with tiny zstd chunks building support.
+15.Few other improvements were also made.
+
 ### v1.4.9.97 Notes:
 
 1. Fixed the Chunk based verification prompts that triggered every chunk.
