@@ -1,3 +1,10 @@
+### v1.5.0.131 Notes:
+
+1. Improved Swarm verification method.
+2. Fixed some bugs related to the Swarm verification and downloading.
+3. Added Multi-Layer Audio-Visualizer.
+4. Fixed some downloading issues related to google route from swarm verification/downloading.
+
 ### v1.5.0.1 Notes:
 
 1. Fixed an issue where 'Multi Connection x8' Mode downloaded the full pre=downloaded chunk's offsets if user had a TCP connection issue.
