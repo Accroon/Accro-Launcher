@@ -1,3 +1,15 @@
+### v1.5.1.38 Notes:
+
+1. Critical Verification bug where the launcher would make an early game folder and think it is an installed game was fixed.
+2. Critical Download Resume bug (Mostly not present in previous version) was fixed/improved.
+3. Added Hide button to hide games in a new section.
+4. Added Modification to the mini-download menu which opens while downloading a game if user minimized main window.
+5. Added Capability to focus the main window by double clicking the mini-download UI.
+6. Fixed a bug where covers sometimes failed to load due to 403 issues.
+7. Fixed a bug where covers would still hover even if cursor not hovering over items.
+8. Added 25% game files requirement to trigger a verification on a game.
+9. Few other critical bugs were fixed that were found from previous version updates.
+
 ### v1.5.0.131 Notes:
 
 1. Improved Swarm verification method.
