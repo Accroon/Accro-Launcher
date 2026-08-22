@@ -6,6 +6,49 @@ A Steam Like Game downloader and Launcher. Simply Download and run the exe to se
 Details About This Project:
 
 
+Current date : 22 August 2026
+
+Version : 1.5.1.38
+
+Total Games : 127 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 132 Items
+
+Total Games Size : 7.18 TB+/-
+
+Development Phase : 4+ Months
+
+Total Code Lines : 24103
+
+Total Functions : 7309
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+8)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 161++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Current date : 19 August 2026
 
