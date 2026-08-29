@@ -5,7 +5,8 @@
 3. Fixed an issue where tags extractor failed to get tags for some games.
 4. Fixed an issue where the app would just extract the whole game page for no reason.
 5. Added SHA-256 checks for applying hotfixes automatically.
-6. Few other bugs were fixed that were found in the previous update.
+6. Added live checks for version updates.
+7. Few other bugs were fixed that were found in the previous update.
 
 ### v1.5.2.0 Notes:
 
