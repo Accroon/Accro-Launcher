@@ -20,7 +20,7 @@
 18. Few other bugs were fixed.
 
 
-Note: this update brought tons of new features so there might be some issues inside the app(Even after testing for hours). Will immediately be solved if found in next update.
+Note: this update bought tons of new features so there might be some issues inside the app(Even after testing for hours). Will immediately be solved if found in next update.
 
 
 ### v1.5.1.38 Notes:
