@@ -1,3 +1,28 @@
+### v1.5.2.0 Notes:
+
+1. Complete redesign of Search-bar.
+2. Complete redesign of Refresh-button.
+3. Added Game-Based background support. (only for Fullscreen-Mode + Online-Mode)
+4. Added Game-Based video previews if hovered/selected a game longer than 5 seconds. (only for Fullscreen-Mode + Online-Mode)
+5. Added Game-Based tags on the cover along with other info when hovered/selected the game. (only for Online-Mode).
+6. Added tags or version based search support. (Note: use #tags to search using tags)
+7. Added the ability to select search-bar and the refresh button for Controller-Mode.
+8. Added Custom made keyboard for controller to search in the search-bar.
+9. Added Custom cursor and effects for the whole app.
+10. Added better animation to move to Fullscreen-Mode from Window-Mode.
+11. Added keyboard navigation. (only for the main grid)
+12. Added Custom drawn icons for controller and keyboard.
+13. Fixed some bugs related to the Audio-Visualizer.
+14. Fixed a bug where if user enabled Fullscreen-Mode then switched to Window-Mode the native maximize button would get enabled.
+15. Added the ability for the launcher to remember the state of 'Fullscreen-Mode', 'Gamepad-Mode', 'Fav-Section-Mode'.
+16. Added a new installed games section to show only installed games.
+17. Few other extra features were added.
+18. Few other bugs were fixed.
+
+
+Note: this update brought tons of new features so there might be some issues inside the app(Even after testing for hours). Will immediately be solved if found in next update.
+
+
 ### v1.5.1.38 Notes:
 
 1. Critical Verification bug where the launcher would make an early game folder and think it is an installed game was fixed.
