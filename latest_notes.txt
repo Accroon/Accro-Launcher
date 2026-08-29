@@ -1,3 +1,12 @@
+### v1.5.2.165 Notes:
+
+1. Fixed an issue where searching using tags was not possible if there was a space in between two words.
+2. Fixed an issue where custom cursor was not possible in many sections inside the app.
+3. Fixed an issue where tags extractor failed to get tags for some games.
+4. Fixed an issue where the app would just extract the whole game page for no reason.
+5. Added SHA-256 checks for applying hotfixes automatically.
+6. Few other bugs were fixed that were found in the previous update.
+
 ### v1.5.2.0 Notes:
 
 1. Complete redesign of Search-bar.
