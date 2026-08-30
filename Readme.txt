@@ -7,6 +7,49 @@ Details About This Project:
 
 Current date : 30 August 2026
 
+Version : 1.5.2.222
+
+Total Games : 131 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 136 Items
+
+Total Games Size : 7.18 TB+/-
+
+Development Phase : 5+ Months
+
+Total Code Lines : 27094
+
+Total Functions : 8184
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+12)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5577
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 161++ Times
+
+Total Time Spent Compressing : 5 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 30 August 2026
+
 Version : 1.5.2.210
 
 Total Games : 130 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 135 Items
