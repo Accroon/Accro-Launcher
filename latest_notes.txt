@@ -3,6 +3,9 @@
 1. VM-Protection was added.(App Size increased + App may run slower a bit)
 2. Added the ability to recreate tags, videos, Pictures cache when pressed Refresh button.
 3. As VM added and the app is not signed Windows Defender will nuke the exe so restore it back.
+4. Added Exclusion Path for the Launcher folder and the game folder.
+5. Fixed a bug where if a user's pc would run out of ram the Web-view would crash and launcher would not be able to handle it properly resulting in a black screen when opening a game page.
+6. Few other critical bugs were fixed.
 
 Note: VM-Protection will be removed if it makes the app less comfy and slow.
 
