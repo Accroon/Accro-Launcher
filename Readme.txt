@@ -1,9 +1,10 @@
- © 2026 Accro - Tools | All rights reserved || Last Update August 17 2026
+ © 2026 Accro - Tools | All rights reserved || Last Update August 30 2026
 
 
-A Steam Like Game downloader and Launcher. Simply Download and run the exe to see play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
+A Steam Like Game downloader and Launcher. Simply Download and run the exe to play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
 Details About This Project:
+
 Current date : 30 August 2026
 
 Version : 1.5.2.210
