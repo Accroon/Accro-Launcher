@@ -1,3 +1,10 @@
+### v1.5.2.210 Notes:
+
+1. VM-Protection was added.(App Size increased + App may run slower a bit)
+2. Added the ability to recreate tags, videos, Pictures cache when pressed Refresh button.
+
+Note: VM-Protection will be removed if it makes the app less comfy and slow.
+
 ### v1.5.2.165 Notes:
 
 1. Fixed an issue where searching using tags was not possible if there was a space in between two words.
