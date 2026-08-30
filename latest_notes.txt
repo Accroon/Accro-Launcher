@@ -2,6 +2,7 @@
 
 1. VM-Protection was added.(App Size increased + App may run slower a bit)
 2. Added the ability to recreate tags, videos, Pictures cache when pressed Refresh button.
+3. As VM added and the app is not signed Windows Defender will nuke the exe so restore it back.
 
 Note: VM-Protection will be removed if it makes the app less comfy and slow.
 
