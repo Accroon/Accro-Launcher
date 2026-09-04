@@ -1,3 +1,22 @@
+### v1.5.2.736 Notes:
+
+1. Fixed Slow verification issue.
+2. Fixed slow increase of disk usage while verifying issue.
+3. Fixed unnecessary double verification issue for ZSTD mode.
+4. Added Custom Review box.
+5. Added virtual keyboard system for the review box.
+6. Fixed tags searching issue.
+7. Fixed UI bug while verifying in ZSTD mode.
+8. Added controller navigation looping system.
+9. Complete redesign of the virtual keyboard.
+10. Added sound effects for window clicks.
+11. Added blue bubble effects for right clicks.
+12. Added 'BackUp_info' creation system to keep a backup of user info in case of data loss.
+13. Complete redesign of the Accro-Messagebox.
+14. Added keyboard typing sound effect for the top bar hints.
+15. Few other features were added.
+16. Few other bugs were fixed.
+
 ### v1.5.2.222 Notes:
 
 1. Added Complex Server-Side Download Validation.
