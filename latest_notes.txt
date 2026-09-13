@@ -1,3 +1,16 @@
+### v.1.5.3.0 Notes:
+
+1. Added Complex '.dll' hooking to implement custom "Accro-Launcher-Sandbox" System for all 'Steam' and 'Hypervisor' Games.
+2. Complete redesign of the way the launcher launches each game.
+3. Added the ability to get all save files created by any 'Steam' and 'Hypervisor' game directly inside the folder 'Accro-Launcher' right next to the exe.
+4. Added Custom Zipping and Extracting Procs.
+5. Fixed a hang on the 'Launch' button when user tried launching any games using the previous version.
+6. Added Restoring save files method if a 'Steam' or 'Hypervisor' game's save is corrupted or missing.
+7. Added a backup folder method for save zip files depending on the OS Time-zone and Date.
+
+Note: Use a 'Cloud-Sync' third-party software to select the Accro-Launcher folder to backup your save files on cloud. Sandbox location is at : "%LOCALAPPDATA%/Accro-Launcher". You can manually place save files there too to get the game detect your save file. Launcher will only zip the save folder if the game launched and 3 minutes have passed.
+
+
 ### v1.5.2.736 Notes:
 
 1. Fixed Slow verification issue.
