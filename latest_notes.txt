@@ -1,3 +1,17 @@
+### v.1.5.3.311 Notes:
+
+1. Fixed a resizing window bug which crashed app due to missing few cases for WebView.
+2. Fixed AccroHook.dll which was not accurate and suitable enough to manage the sandbox so the game could find its shader cache after compiling once.
+3. Fixed AccroHook.dll which was not accurate and suitable enough to manage 'Hypervisor' games save files properly.
+4. Added 'Save Folder' button to open Steam/Hypervisor games sandbox save folder.
+5. Added Xbox Controller support. Now user can right click on a game to enable Xbox Controller mapping for games that does not support 'Wireless Controller' or 'DirectInput Controller'.
+6. Added custom resizing cursor for the launcher.
+7. Added Complex checks on the launcher's dlls to prevent tempering.
+8. Replaced the keyboard typing sound effects with something better.
+9. Few other modifications were made.
+10. Few other bugs were fixed.
+
+
 ### v.1.5.3.0 Notes:
 
 1. Added Complex '.dll' hooking to implement custom "Accro-Launcher-Sandbox" System for all 'Steam' and 'Hypervisor' Games.
