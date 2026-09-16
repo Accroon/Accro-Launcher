@@ -1,258 +1,761 @@
-### v.1.5.3.311 Notes:
-
-1. Fixed a resizing window bug which crashed app due to missing few cases for WebView.
-2. Fixed AccroHook.dll which was not accurate and suitable enough to manage the sandbox so the game could find its shader cache after compiling once.
-3. Fixed AccroHook.dll which was not accurate and suitable enough to manage 'Hypervisor' games save files properly.
-4. Added 'Save Folder' button to open Steam/Hypervisor games sandbox save folder.
-5. Added Xbox Controller support. Now user can right click on a game to enable Xbox Controller mapping for games that does not support 'Wireless Controller' or 'DirectInput Controller'.
-6. Added custom resizing cursor for the launcher.
-7. Added Complex checks on the launcher's dlls to prevent tempering.
-8. Replaced the keyboard typing sound effects with something better.
-9. Few other modifications were made.
-10. Few other bugs were fixed.
+ © 2026 Accro - Tools | All rights reserved || Last Update September 16 2026
 
 
-### v.1.5.3.0 Notes:
+A Steam Like Game downloader and Launcher. Simply Download and run the exe to play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
-1. Added Complex '.dll' hooking to implement custom "Accro-Launcher-Sandbox" System for all 'Steam' and 'Hypervisor' Games.
-2. Complete redesign of the way the launcher launches each game.
-3. Added the ability to get all save files created by any 'Steam' and 'Hypervisor' game directly inside the folder 'Accro-Launcher' right next to the exe.
-4. Added Custom Zipping and Extracting Procs.
-5. Fixed a hang on the 'Launch' button when user tried launching any games using the previous version.
-6. Added Restoring save files method if a 'Steam' or 'Hypervisor' game's save is corrupted or missing.
-7. Added a backup folder method for save zip files depending on the OS Time-zone and Date.
+Details About This Project:
 
-Note: Use a 'Cloud-Sync' third-party software to select the Accro-Launcher folder to backup your save files on cloud. Sandbox location is at : "%LOCALAPPDATA%/Accro-Launcher". You can manually place save files there too to get the game detect your save file. Launcher will only zip the save folder if the game launched and 3 minutes have passed.
+Current date : 13 September 2026
 
+Version : 1.5.3.311
 
-### v1.5.2.736 Notes:
+Total Games : 136 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 141 Items
 
-1. Fixed Slow verification issue.
-2. Fixed slow increase of disk usage while verifying issue.
-3. Fixed unnecessary double verification issue for ZSTD mode.
-4. Added Custom Review box.
-5. Added virtual keyboard system for the review box.
-6. Fixed tags searching issue.
-7. Fixed UI bug while verifying in ZSTD mode.
-8. Added controller navigation looping system.
-9. Complete redesign of the virtual keyboard.
-10. Added sound effects for window clicks.
-11. Added blue bubble effects for right clicks.
-12. Added 'BackUp_info' creation system to keep a backup of user info in case of data loss.
-13. Complete redesign of the Accro-Messagebox.
-14. Added keyboard typing sound effect for the top bar hints.
-15. Few other features were added.
-16. Few other bugs were fixed.
+Total Games Size : 7.77 TB+/-
 
-### v1.5.2.222 Notes:
+Development Phase : 6+ Months
 
-1. Added Complex Server-Side Download Validation.
-2. VM-Protection will not be removed as performance does not drop that high.
+Total Code Lines : 30833
 
-Note: Due to this, any version before v1.5.2.222 will no longer be able to download games from the server. This is because major vulnerabilities were detected in the previous versions which could result in unauthorized user access to the server for game files.
+Total Functions : 9191
 
-### v1.5.2.210 Notes:
+Made In : C++, JS, Html, Css
 
-1. VM-Protection was added.(App Size increased + App may run slower a bit)
-2. Added the ability to recreate tags, videos, Pictures cache when pressed Refresh button.
-3. As VM added and the app is not signed Windows Defender will nuke the exe so restore it back.
-4. Added Exclusion Path for the Launcher folder and the game folder.
-5. Fixed a bug where if a user's pc would run out of ram the Web-view would crash and launcher would not be able to handle it properly resulting in a black screen when opening a game page.
-6. Few other critical bugs were fixed.
+Compiled With : MSVS
 
-Note: VM-Protection will be removed if it makes the app less comfy and slow.
+Build : Release x64
 
-### v1.5.2.165 Notes:
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+17)x (700-600+/-)) = 116,900+/-
 
-1. Fixed an issue where searching using tags was not possible if there was a space in between two words.
-2. Fixed an issue where custom cursor was not possible in many sections inside the app.
-3. Fixed an issue where tags extractor failed to get tags for some games.
-4. Fixed an issue where the app would just extract the whole game page for no reason.
-5. Added SHA-256 checks for applying hotfixes automatically.
-6. Added live checks for version updates.
-7. Few other bugs were fixed that were found in the previous update.
+Server Side Code lines : 5577
 
-### v1.5.2.0 Notes:
+Compressor Made In : Python
 
-1. Complete redesign of Search-bar.
-2. Complete redesign of Refresh-button.
-3. Added Game-Based background support. (only for Fullscreen-Mode + Online-Mode)
-4. Added Game-Based video previews if hovered/selected a game longer than 5 seconds. (only for Fullscreen-Mode + Online-Mode)
-5. Added Game-Based tags on the cover along with other info when hovered/selected the game. (only for Online-Mode).
-6. Added tags or version based search support. (Note: use #tags to search using tags)
-7. Added the ability to select search-bar and the refresh button for Controller-Mode.
-8. Added Custom made keyboard for controller to search in the search-bar.
-9. Added Custom cursor and effects for the whole app.
-10. Added better animation to move to Fullscreen-Mode from Window-Mode.
-11. Added keyboard navigation. (only for the main grid)
-12. Added Custom drawn icons for controller and keyboard.
-13. Fixed some bugs related to the Audio-Visualizer.
-14. Fixed a bug where if user enabled Fullscreen-Mode then switched to Window-Mode the native maximize button would get enabled.
-15. Added the ability for the launcher to remember the state of 'Fullscreen-Mode', 'Gamepad-Mode', 'Fav-Section-Mode'.
-16. Added a new installed games section to show only installed games.
-17. Few other extra features were added.
-18. Few other bugs were fixed.
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 192++ Times
+
+Total Time Spent Compressing : 6 month++
+
+External Dependencies : Zstd Libs, ViGEm, WebView, MinHook
 
 
-Note: this update bought tons of new features so there might be some issues inside the app(Even after testing for hours). Will immediately be solved if found in next update.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 04 September 2026
+
+Version : 1.5.2.736
+
+Total Games : 133 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 138 Items
+
+Total Games Size : 7.77 TB+/-
+
+Development Phase : 5+ Months
+
+Total Code Lines : 28877
+
+Total Functions : 8771
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+14)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5577
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 175++ Times
+
+Total Time Spent Compressing : 5 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
 
 
-### v1.5.1.38 Notes:
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Critical Verification bug where the launcher would make an early game folder and think it is an installed game was fixed.
-2. Critical Download Resume bug (Mostly not present in previous version) was fixed/improved.
-3. Added Hide button to hide games in a new section.
-4. Added Modification to the mini-download menu which opens while downloading a game if user minimized main window.
-5. Added Capability to focus the main window by double clicking the mini-download UI.
-6. Fixed a bug where covers sometimes failed to load due to 403 issues.
-7. Fixed a bug where covers would still hover even if cursor not hovering over items.
-8. Added 25% game files requirement to trigger a verification on a game.
-9. Few other critical bugs were fixed that were found from previous version updates.
+Current date : 30 August 2026
 
-### v1.5.0.131 Notes:
+Version : 1.5.2.222
 
-1. Improved Swarm verification method.
-2. Fixed some bugs related to the Swarm verification and downloading.
-3. Added Multi-Layer Audio-Visualizer.
-4. Fixed some downloading issues related to google route from swarm verification/downloading.
+Total Games : 131 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 136 Items
 
-### v1.5.0.1 Notes:
+Total Games Size : 7.18 TB+/-
 
-1. Fixed an issue where 'Multi Connection x8' Mode downloaded the full pre=downloaded chunk's offsets if user had a TCP connection issue.
-2. Fixed a bug where Custom GUI did not keep the main window open.
-3. Fixed the freeze when user minimized their window while doing a 'Smart Verify'.
-4. Added full replacement of the Windows Native Messageboxes to Custom Messageboxes.
-5. Added Complex 3 Type verification methods depending on how the game was compressed.
-6. Added support for per file restoring method if the game was compressed with just .bin extension.
-7. Added support for tiny Zstd compressed chunks downloading method.
-8. Added support for handling and installing tiny zstd compressed chunks.
-9. Added support for verification method for games with tiny zstd chunks.
-10.Added Full replacements of the Windows File-Picker and Folder-Picture to the Custom ones.
-11.Added Full controller support.
-12.Added Sound effects for button clicks, navigation using controller, opening sub-menu, Alert boxes.
-13.Added Audio Visualizer at the bottom of the main grid that opens while playing music.
-14.Compressorv8 was built with tiny zstd chunks building support.
-15.Few other improvements were also made.
+Development Phase : 5+ Months
 
-### v1.4.9.97 Notes:
+Total Code Lines : 27094
 
-1. Fixed the Chunk based verification prompts that triggered every chunk.
-2. Added Multi Verification Mode.
-3. Fixed the delay on download button when clicked.
-4. Added progress bar while decompressing game chunks.
-5. Added progress bar while installing game files.
-6. Added progress bar while uninstalling the game.
-7. Added full controller support for navigating through most UIs.
-8. Added the ability to play custom music if a music file is placed into the /music folder right next to the exe.
-9. Fixed the bottleneck while installing games with many small tiny files.
-10. Added the ability to uninstall/unlink/open submenus while another game verifying/downloading.
-11. Changed the requirements for 'Multi Connection x8' Mode to trigger with just 1 hour max time or 15 seconds with less than 7 MBps internet speed.
-12. Few other bugs were fixed.
+Total Functions : 8184
 
-### v1.4.8.78 Notes:
+Made In : C++, JS, Html, Css
 
-1. A Major bug where Playtime Suddenly would jump to trillions has finally been resolved.
-2. Few other bugs were fixed.
-3. Few unneeded functions were removed.
+Compiled With : MSVS
 
-### v1.4.8.12 Notes:
+Build : Release x64
 
-1. FIxed the "Failed to add to tray" error when system had a crash.
-2. Added Custom Accro Modification notes into the game folder.
-3. Upgraded "Unlink" Button to Unlink the game completely from Accro.
-4. The Update UI is now scrollable with the entire version logs.
-5. Few other custom modificaitons were made.
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+12)x (700-600+/-)) = 116,900+/-
 
-### Version 1.4.7.811
+Server Side Code lines : 5577
 
-*Note: This is an auto-update.*
+Compressor Made In : Python
 
-1. Fixed the slow verification issue and made it 100x faster than before.
-2. Added Custom UI to see what files are missing from what chunk and then restore them.
-3. Fixed the issue where the app could not show disk speed live.
-4. Fixed the issue where the app did massive data reads for files that were split into multiple small chunks.
-5. Fixed the issue where the app could not download the cover for offline mode if the user lost their connection instantly after downloading/verifying their game.
-6. Added Custom update UI if a new update is available that also shows the release notes.
+Remote Uploader Made In : Python
 
-### Version 1.4.7.351
+Compressor Total Code Lines : 4461+/-
 
-*Note: This is an auto-update. Users do not have to install it manually if they have version 1.4.4.160 or plus.*
+Remote Uploader Code Lines : 1670+/-
 
-1. Added full PlayStation + Xbox Controller support.
-2. Added Fullscreen button to enable/disable Fullscreen mode.
-3. Added Music button to enable/disable background music.
-4. Added Custom Animation before showing the main window.
-5. Added another download route (BlackBlaze) to download game files from.
-6. Added Fav Section to show favorite games.
-7. Added Controller button to enable/disable controller navigation.
-8. Added Custom Tag to the favorite games to represent them.
-9. Added Custom notification when playtime gets auto-paused/resumed.
-10. Added the ability to add games to the Fav Section by right-clicking on the cover.
-11. Fixed the bug where the Playtime suddenly jumped to trillions due to a bad tracking system.
-12. Fixed the bug where when the main window was open, if a user tried opening the tray menu, it opened on top.
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
 
-### Version 1.4.6.62
+Compression Done : 161++ Times
 
-*Note: This is an auto-update. Users do not have to download it manually.*
+Total Time Spent Compressing : 5 month++
 
-1. Advanced Playtime tracking system added.
-2. Players can now go AFK without adding an unplayed amount of time to the Playtime.
-3. If a player is idle, does not press a single key on their input devices, or does not move their mouse at all for more than 5 minutes, the Playtime tracking system pauses the Playtime.
-4. It continues tracking once the player is back and ready to continue playing.
+External Dependencies : Zstd Libs, ViGEm, Webview
 
-### Version 1.4.6.08
 
-*Note: This update will automatically be applied if the user approved and has version 1.4.4.160 or plus.*
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. Fixed the issue where the app could not load the playtime and ratings json files right next to the exe if the registry values were deleted.
-2. Fixed the hang on moving games from one directory to another.
-3. Added Per Game Themed Moving UI for moving game files.
-4. Completely removed the extra WebView2Loader.dll needed to run the app on a new PC for the first time.
+Current date : 30 August 2026
 
-### Version 1.4.5.20
+Version : 1.5.2.210
 
-*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+Total Games : 130 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 135 Items
 
-1. Added the ability to launch 10 games simultaneously.
-2. Added the ability to launch games while downloading another game.
-3. Added live playtime on the game's cover for the running game.
-4. Added Unlink button to unlink the game from the launcher without deleting the game.
-5. Redesigned the "always on top" button to look better.
-6. Added the ability to track multiple games' playtime simultaneously.
-7. Added the ability to understand what game is running if the launcher is closed and reopened.
-8. Added Github button to open the repository to learn more about version info.
+Total Games Size : 7.18 TB+/-
 
-### Version 1.4.4.810
+Development Phase : 5+ Months
 
-*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+Total Code Lines : 27008
 
-1. Added 5-star rating system for games that are played over 30 minutes.
-2. Added Topmost button on the main grid.
+Total Functions : 8179
 
-### Version 1.4.4.720
+Made In : C++, JS, Html, Css
 
-*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+Compiled With : MSVS
 
-1. Added live downloading state on the game's cover while downloading a game.
-2. Fixed the "Failed to add to tray" issue that occurred sometimes.
+Build : Release x64
 
-### Version 1.4.4.160
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+11)x (700-600+/-)) = 116,900+/-
 
-*Note: From version 1.4.4.160, auto-update codes were implemented, so there is no need to download manually. The launcher will now update itself if approved by the user.*
+Server Side Code lines : 5543
 
-1. Added Cloudflare CDN, one more option to download through.
-2. Added a good-looking tray menu which enhances user experience to launch games and monitor total play time.
-3. Added Shortcut in the start menu for quick launching the app.
-4. Added Startup system to auto-launch the app on startup.
-5. No external WebView2Loader.dll needed anymore unlike previous versions.
-6. Added the ability to choose an already installed game directory to prevent full installation.
-7. Auto-update functionality added.
-8. Fixed some tiny bugs.
+Compressor Made In : Python
 
-### Version 1.4.3.810
+Remote Uploader Made In : Python
 
-1. Added Play Time count for each game just like Steam.
-2. Fixed delayed painting issue on the Launch button when the games close from their native menu.
-3. Fixed the Universal Stop button state and aligned it to each game separately.
-4. Automatic Launcher.exe detection implemented.
-5. No nested game folders.
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 161++ Times
+
+Total Time Spent Compressing : 5 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 29 August 2026
+
+Version : 1.5.2.165
+
+Total Games : 130 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 135 Items
+
+Total Games Size : 7.18 TB+/-
+
+Development Phase : 5+ Months
+
+Total Code Lines : 26697
+
+Total Functions : 8061
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+11)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 161++ Times
+
+Total Time Spent Compressing : 5 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 29 August 2026
+
+Version : 1.5.2.0
+
+Total Games : 130 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 135 Items
+
+Total Games Size : 7.18 TB+/-
+
+Development Phase : 5+ Months
+
+Total Code Lines : 26305
+
+Total Functions : 7981
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+11)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 161++ Times
+
+Total Time Spent Compressing : 5 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 22 August 2026
+
+Version : 1.5.1.38
+
+Total Games : 127 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 132 Items
+
+Total Games Size : 7.18 TB+/-
+
+Development Phase : 4+ Months
+
+Total Code Lines : 24103
+
+Total Functions : 7309
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2+8)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 161++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 19 August 2026
+
+Version : 1.5.0.131
+
+Total Games : 119 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 124 Items
+
+Total Games Size : 6.88 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 23696
+
+Total Functions : 7304
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 141++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 17 August 2026
+
+Version : 1.5.0.1
+
+Total Games : 119 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 124 Items
+
+Total Games Size : 6.88 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 23247
+
+Total Functions : 7328
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4461+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 141++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 14 August 2026
+
+Version : 1.4.9.97
+
+Total Games : 119 + 3 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 124 Items
+
+Total Games Size : 6.88 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 20236
+
+Total Functions : 6844
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+2)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 136++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 5 August 2026
+
+Version : 1.4.8.78
+
+Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 123 Items
+
+Total Games Size : 6.88 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 19284
+
+Total Functions : 6884
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+1)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 133++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 31 july 2026
+
+Version : 1.4.8.12
+
+Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 123 Items
+
+Total Games Size : 6.88 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 19329
+
+Total Functions : 6889
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+1)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 127++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 28 july 2026
+
+Version : 1.4.7.811
+
+Total Games : 119 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 123 Items
+
+Total Games Size : 6.71 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 18615
+
+Total Functions : 6754
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((19+2+1+1)x (700-600+/-)) = 116,900+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 127++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 26 july 2026
+
+Version : 1.4.7.351
+
+Total Games : 118 + 2 App + 21 Nintendo(1 Mega Project) + 1 PS4 = 122 Items
+
+Total Games Size : 6.64 TB
+
+Development Phase : 4+ Months
+
+Total Code Lines : 18565
+
+Total Functions : 6734
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((18+2+1+1)x (700-600+/-)) = 115,400+/-
+
+Server Side Code lines : 5543
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 122++ Times
+
+Total Time Spent Compressing : 4 month++
+
+External Dependencies : Zstd Libs, ViGEm, Webview
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Current date : 18 july 2026
+
+Version : 1.4.6.08
+
+Total Games : 117 + 2 Apps + 21 Nintendo(1 Mega Project) + 1 PS4 = 121 Items
+
+Total Games Size : 6.77 TB
+
+Development Phase : 3+ Months
+
+Total Code Lines : 16400+
+
+Total Functions : 6100+
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((17+2+1+1)x (700-600+/-)) = 114,700+/-
+
+Server Side Code lines : 2100+/-
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : 121++ Times
+
+Total Time Spent Compressing : 1 month++
+
+External Dependencies : Zstd Libs
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Current date : 20 june 2026
+
+Version : 1.4.5.20
+
+Total Games : 115 + 21 Nintendo(1 Mega Project) = 116 Items
+
+Total Games Size : 6.12 TB
+
+Development Phase : 1.2 months++ / more than 1 Month 20 days
+
+Total Code Lines : 16086
+
+Total Functions : 5913
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (100 x 1000+/-) + ((15+1)x (700-600+/-)) = 109,600+/-
+
+Server Side Code lines : 2100+/-
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4314+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 34TB++
+
+Compression Done : Currently 114 Times
+
+Total Time Spent Compressing : 1 month++
+
+External Dependencies : Zstd Libs
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+date : 07 May 2026
+
+Version : 1.4.3.710
+
+Total Games : 78
+
+Total Games Size : 4.86 TB
+
+Development Phase : 2 Weeks
+
+Total Code Lines : 13980+/-
+
+Total Functions : 4160+/-
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: (78 x 1000+/-) = 78000+/-
+
+Server Side Code lines : 1400+/-
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 4200+/-
+
+Remote Uploader Code Lines : 1200+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 17TB++
+
+Compression Done : Currently 78 Times
+
+Total Time Spent Compressing : 1 Week+
+
+External Dependencies : Zstd Libs
+
+
+Chosen Games rules:
+
+1. Was Hard to Crack
+2. Extremely Highly Rated on Steam With Some Exceptions
+3. Bigger Games
+4. Hard to Collect
+5. HV Games
+6. Online Games
+
+
+Icon Designed by : Accro
+Compressing Done by : Accro
+Project Done by : Accro
+
+
+
+© 2026 Accro - Tools | All rights reserved || First Release Date May 07 2026
