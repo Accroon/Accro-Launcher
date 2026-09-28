@@ -1,3 +1,18 @@
+### v.1.5.4.0 Notes:
+
+1. Fixed a bug where typing sound would keep on playing even if no text were being typed.
+2. Added "Zip Folder' Button to open the 'Accro-Launcher' Zip Folder right next to the exe.
+3. Added Mini Menu to toggle between 'Save Folder' or 'Zip Folder'.
+4. Fixed over 119 warnings to reduce crash chances.
+6. Fixed a bug where if used controller to trigger the 'Game Files' Button or 'Save Folder' Button it would stay lifted leaving black drawing glitches.
+7. Complete Redesign of the 'Update Notes UI'
+8. Complete Redesign of the Server Updates Streaming Mechanism. Now Speed to download updates has been increased significantly.
+9. Added custom styling for 'Update Notes'.
+10. Added the ability to look for updates when pressed the 'Refresh Button'.
+11. Few other features were added.
+12. Few other bugs were fixed.
+
+
 ### v.1.5.3.311 Notes:
 
 1. Fixed a resizing window bug which crashed app due to missing few cases for WebView.
