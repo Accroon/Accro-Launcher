@@ -4,6 +4,7 @@
 A Steam Like Game downloader and Launcher. Simply Download and run the exe to play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
 Details About This Project:
+
 Current date : 06 October 2026
 Version : 1.5.4.251
 
