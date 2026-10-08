@@ -1,3 +1,18 @@
+### v1.5.4.311 Notes:
+
+1. Fixed a drawing bug on the download UI which occurred if an disconnection happened.
+2. Fixed a drawing bug on the 'WebView' Page which did not load if user minimized the app and reopened the page without needing to reload the page.
+3. Fixed Slow 'Swarm Download Mode' on Google Route on the server.
+4. Fixed a drawing bug on the 'Launch' Button if user pressed it, it showed 'Stopping' even though they did not stop the game or the game did not stop.
+5. Fixed a 'Back' button hover issue which occurred if the connection dropped while downloading a game.
+6. Fixed an issue where the game's manifest would sit on ram even though the game is not downloading.
+7. Added Complex 'Game Manifest' Protections.
+8. Added Complex 'Memory' Blocks from unauthorized scripts.
+9. Added Complex 'Server Side Manifests' Encryptions.
+10. Added Complex '.dll Hooking' Blocks.
+
+Note : Any version below this will not be able to download any games. So to download games from server this update is 100% Required.
+
 ### v1.5.4.251 Notes:
 
 1. Fixed a 'AccroHook.dll' bug which failed to sandbox 'Public' folder.
