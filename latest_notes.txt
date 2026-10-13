@@ -1,3 +1,16 @@
+### v1.5.5.0 Notes:
+
+1. Fixed an issue which caused 'CPU' Usage being around 5-6% even when idle.
+2. Fixed an issue which could somehow leak manifests in ram.
+3. Added security for listing games.
+4. Added optimization to keep 'CPU' usage as low as possible when idle.
+5. Added 'Activation Modal' to activate 'Accro-Launcher'.
+6. Added 'Activation Key' Handling methods to activate 'Accro-Launcher'
+7. Added 'Server Side' activation methods.
+8. Few other features were added.
+
+Note: From v1.5.5.0 You will be required to activate 'Accro-Launcher' by requesting an activation key to : 'help@accroo.site'. No previous version will list any games in the launcher as it is now restricted. Once you have activated 'Accro-Launcher' that key is tied to your hardware and you will not be required for an activation key unless you change hardware or request for another key.
+
 ### v1.5.4.311 Notes:
 
 1. Fixed a drawing bug on the download UI which occurred if an disconnection happened.
