@@ -1,3 +1,15 @@
+### v1.5.5.109 Notes:
+
+1. Redesign of the entire "server request system".
+2. Fixed a bug which made the Download UI get wiped and needed manual game page refresh if a download error occurred.
+3. Added Incorrect/Untrusted installed certificates blocking.
+4. Upgraded 'HTTP' Requests from 1.1 to 2.0
+5. Added Complex server 'double encryption logics'.
+6. Fixed vulnerabilities of manifests plus lists when severed through HTTP.
+7. Few other extra flaws were fixed.
+
+Note: This version will stay the last until a new 'domain' is bought. Patches will be released as usual. All older versions have been stopped due to domain change + vulnerabilities. You are required to download this version manually. You can still use older versions before v1.5.5.0 to play/list installed games only.
+
 ### v1.5.5.0 Notes:
 
 1. Fixed an issue which caused 'CPU' Usage being around 5-6% even when idle.
