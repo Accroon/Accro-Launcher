@@ -1,9 +1,52 @@
- © 2026 Accro - Tools | All rights reserved || Last Update 12 October 2026
+ © 2026 Accro - Tools | All rights reserved || Last Update 21 October 2026
 
 
 A Steam Like Game downloader and Launcher. Simply Download and run the exe to play games, Download any games then Launch Using the Launcher or manually. Verify Game Files, Uninstall... More Stuffs.
 
 Details About This Project:
+
+Current date : 21 October 2026
+Version : 1.5.5.109
+
+Total Games : 153 (Steam + Hypervisor + Indie + Xbox) + 5 Apps + 1 Mega Project(20 Nintendo Games) + 4 Nintendo(Separated) + 4 PS4 = 167 Items
+
+Total Games Size : 8.12 TB+/-
+
+Development Phase : 7+ Months
+
+Total Code Lines : 34754
+
+Total Functions : 9725
+
+Made In : C++, JS, Html, Css
+
+Compiled With : MSVS
+
+Build : Release x64
+
+Total Html Code lines: 210k+/-
+
+Server Side Code lines : 6621
+
+Compressor Made In : Python
+
+Remote Uploader Made In : Python
+
+Compressor Total Code Lines : 5261+/-
+
+Remote Uploader Code Lines : 1670+/-
+
+Total Internet Bandwidth Used to Finish the Entire Project : 43TB++
+
+Compression Done : 312++ Times
+
+Total Time Spent Compressing : 7 month++
+
+External Dependencies : Zstd Libs, ViGEm, WebView, MinHook, VMProtect, AES-GCM
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Current date : 11 October 2026
 Version : 1.5.5.0
 
